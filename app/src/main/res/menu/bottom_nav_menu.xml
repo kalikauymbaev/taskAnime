@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_dashboard"
+        android:icon="@drawable/main_menu"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/action_quote"
+        android:icon="@drawable/quotes"
+        android:title="Quotes"/>
+
+</menu>

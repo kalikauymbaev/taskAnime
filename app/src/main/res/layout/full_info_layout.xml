@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/orange"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/tvAnime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anime"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvCharacter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Character"
+                android:textColor="@color/black"
+                android:layout_below="@+id/tvAnime"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/tvQuote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quote"
+                android:textColor="@color/black"
+                android:layout_below="@+id/tvCharacter"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
